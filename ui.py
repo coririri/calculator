@@ -16,7 +16,7 @@ class View(QWidget):
         self.cb.addItems(['+','-','*','/'])
         hbox_formular = QHBoxLayout()
         hbox_formular.addWidget(self.le1)
-        hbox_formular.addWidget(Self.cb)
+        hbox_formular.addWidget(self.cb)
         hbox_formular.addWidget(self.le2)
 
         self.te1 = QPlainTextEdit()
